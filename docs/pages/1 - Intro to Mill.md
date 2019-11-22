@@ -81,7 +81,7 @@ To get started, download Mill and install it into your system via the following
 `curl`/`chmod` command:
 
 ```bash
-sudo curl -L https://github.com/lihaoyi/mill/releases/download/0.5.2/0.5.2 > /usr/local/bin/mill && sudo chmod +x /usr/local/bin/mill
+sudo sh -c 'curl -L https://github.com/lihaoyi/mill/releases/download/0.5.2/0.5.2 > /usr/local/bin/mill' && sudo chmod +x /usr/local/bin/mill
 ```
 
 ### Bootstrap Scripts (Linux/OS-X Only)
